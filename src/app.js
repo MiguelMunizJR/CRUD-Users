@@ -13,5 +13,5 @@ app.get("/", (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`Estamos conectados en el puerto ${PORT}!`);
+  console.log(`Server online on port ${PORT}!`);
 });
